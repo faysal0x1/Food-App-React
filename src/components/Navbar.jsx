@@ -31,7 +31,7 @@ const Navbar = () => {
       {/* Cart Button */}
 
       <button className="bg-black text-white hidden md:flex items-center py-2 rounded-full">
-        <BsFillCartFill size={20} classNamemr-2 />
+        <BsFillCartFill size={20} className="mr-2" />
       </button>
 
       {/* Mobile Menu */}
@@ -47,7 +47,7 @@ const Navbar = () => {
             : "fixed top-0 left-[-100%] w-[300px] h-screen z-10 bg-white duration-300"
         }
       >
-        <AiOutlineClose onClick={() => setNav(!nav) } size={30} className="absolute right-4 top-4 cursor-pointer" />
+        <AiOutlineClose onClick={() => setNav(!nav)} size={30} className="absolute right-4 top-4 cursor-pointer" />
         <h2 className="text-2xl p-4">
           Best <span className="font-bold">Eats</span>
         </h2>

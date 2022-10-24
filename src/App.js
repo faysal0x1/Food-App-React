@@ -1,4 +1,4 @@
-import Cards from "./components/Cards";
+// import Cards from "./components/Cards";
 import Category from "./components/Category";
 import Food from "./components/Food";
 import HeadlineCards from "./components/HeadlineCards";
